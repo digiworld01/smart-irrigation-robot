@@ -1,9 +1,3 @@
-
-//   ********CODE BY KHURAFATI BABA (SARTHAK MISHRA)**********
-//   ********CODE BY KHURAFATI BABA (SARTHAK MISHRA)**********
-
-
-
 #include <AFMotor.h>                          //For adding the library of shield
 #include<Servo.h>                             //For adding the library of servo motor
 Servo m1;                                     //Variable of servo motor 1
