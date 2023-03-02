@@ -2,39 +2,38 @@
 
 
 
-#include <AFMotor.h>                          //For adding the library of shield
-#include<Servo.h>                             //For adding the library of servo motor
-Servo m1;                                     //Variable of servo motor 1
-Servo m2;                                     //variable of servo motor 2
-int pos;                                      //Variable that will define the postion of servos
-const int trigPin = A0;                       //Defines the trig pin of ultrasonic sensor 1st 
-const int echoPin = A1;                       //Defines the echo pin of ultrasonic sensor 1st
-const int trigPin1=A2;                        //Defines the trig pin of ultrasonic sensor 2nd 
-const int echoPin1=A3;                        //Defines the echo pin of ultrasonic sensor 2nd
-int mpin = A4;                                //Defines the pin of moisture sensor pin
-int mout;                                     //Variable to store the value given by moisture sensor
-long duration, duration1;                     //Variable that stores the duration value given by ultrasonic sensor
-int distance, distance1;                      //Variable that stores the distance value calculated by the formaula
+#include <AFMotor.h>                         
+#include<Servo.h>                             
+Servo m1;                                     
+Servo m2;                                     
+int pos;                                      
+const int trigPin = A0;                       
+const int echoPin = A1;                       
+const int trigPin1=A2;                        
+const int echoPin1=A3;                        
+int mpin = A4;                                
+int mout;                                     
+long duration, duration1;                     
+int distance, distance1;                      
 
-
-AF_DCMotor motor1(1, MOTOR12_1KHZ);           //Defines the frequency which will be given to motor 1
-AF_DCMotor motor2(2, MOTOR12_1KHZ);           //Defines the frequency which will be given to motor 2
+AF_DCMotor motor1(1, MOTOR12_1KHZ);           
+AF_DCMotor motor2(2, MOTOR12_1KHZ);           
 AF_DCMotor motor4(4, MOTOR12_1KHZ);
 
 void setup() {
-  Serial.begin(9600);                         //starts serial communication with the arduino and PC
+  Serial.begin(9600);                         
   pinMode(trigPin, OUTPUT); 
   pinMode(echoPin, INPUT);
   pinMode(trigPin1, OUTPUT); 
   pinMode(echoPin1, INPUT);
-  m1.attach(10);                             //Define the attached pin for servo motor 1
-  m2.attach(9);                              //Define the attached pin for servo motor 1
+  m1.attach(10);                             
+  m2.attach(9);                              
 
   m1.write(0);
   m2.write(120);
   
-  motor1.setSpeed(255);                      //To set the particular speed of motor 1
-  motor2.setSpeed(255);                      //To set the particular speed of motor 2
+  motor1.setSpeed(255);                      
+  motor2.setSpeed(255);                      
 }
 
 void loop() 
