@@ -6,9 +6,10 @@ This project is all about the automatic irrigation system, This robot will start
 
 ## Context
 
- - [introdution](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [circuit diagram](https://github.com/matiassingers/awesome-readme)
- - [set up yours](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [introdution]
+ - [circuit diagram]
+ - [set up yours]
+
         *code
         *tools
         *material
