@@ -12,6 +12,7 @@ This project is all about the automatic irrigation system, This robot will start
   * tools
   * material
 4. Guidelines
+5. Manual
 
 
 ## INTRODUCTION
@@ -150,5 +151,7 @@ The water pipe is connected to the servo motor which rotates according to the re
 * Starts the watering and when it will fill up it will rotate towards PLANT B. this is one more benefit of this project.
 
 Place the flower plants where the pipe from the servo motor can easily reach them. When the moisture level dips below 600, the servo  rotates at an angle of 70 degrees. That is after the servo motor horn moves 70 degrees toward the first pot, the motor pump will be on for five seconds and then stop automatically. Then, the servo returns to its original position. Similarly, if you are using a second sensor, the servo motor horn will move to 145 degrees to the second biggest pot, and the motor pump will be on for eight seconds and then stop automatically. The servo returns to its original position.
+
+## Manual
 [user manual.docx](https://github.com/digiworld01/smart-irrigation-robot/files/10879383/user.manual.docx)
 
