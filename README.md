@@ -31,7 +31,7 @@ The program in the Arduino reads the moisture value from the sensor every 20 sec
 
 *It brings back the servo motor to its initial position.
 
-## GUIDELINES
+## GUIDELINES:
 
 Before powering the circuit on, you need to keep in mind the following macro definitions in the code:
 
@@ -62,8 +62,7 @@ The tools are very simple, I used for this project:
 *Battery holders
 
 *mounting
-
-*A flat screwdriver 
+* A flat screwdriver 
 
 *Plastic rod
 
@@ -71,43 +70,38 @@ If you have them you can also add some wire strippers, but they are not indispen
 
 ## Material
 Here is a list of the products used to build the system.
-**To control the system:
+**To control the system:**
 
 *Arduino UNO (2100 pkr)
 
-*Servo SG90(640)
+* Servo SG90(640)
+* L293D Sheild(500pkr)
+* 100 RPM Geared motor and wheels(880pkr)
+* Prototyping jumper wires(140pkr)
+* Wooden box
+* Plastic container
 
-*L293D Sheild(500pkr)
-
-*100 RPM Geared motor and wheels(880pkr)
-
-*Prototyping jumper wires(140pkr)
-
-*Wooden box
-
-*Plastic container
-
-**For the autonomy in energy:
+**For the autonomy in energy:**
 
 *LI_ON Battery(280pkr)
 
 *Charging module(TP4056)(120pkr)
 
-**For the water tank:
+**For the water tank:**
 
 *12V DC pump(350pkr)
 
-**The sensors:
+**The sensors:**
 
-*Ultrasonic sensor(380pkr)
+* Ultrasonic sensor(380pkr)
 
 *Moisture sensor(180pkr)
 
 
 For a total of 10k. That's not cheap! But keep in mind that it's still cheaper than a pre-built system, and with a lot more capabilities! Also, some parts are only for prototyping, and we purchased many components in groups of several pieces for other projects, you don't need 3 NodeMCU boards, nor 6 relays for this project
 
-** Power Block
+** Power Block**
  The L293D Sheild  can drive 4 DC motors and 2 stepper or Servo motors at the same time. Each channel of this module has the maximum current of 1.2A and doesn't work if the voltage is more than 25v or less than 4.5v.the supply voltage and reduces it to a constant 5V making it suitable to run the Arduino & Soil Moisture Sensor.
 
-** Moisture Sensor
+** Moisture Sensor**
 The sensor feeds an analog value to the Arduino. The threshold level of moisture is calibrated by the user depending on the type of plant used.
