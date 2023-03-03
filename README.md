@@ -41,6 +41,15 @@ The water pipe is connected to the servo motor which rotates according to the re
 
 Place the flower plants where the pipe from the servo motor can easily reach them. When the moisture level dips below 600, the servo  rotates at an angle of 70 degrees. That is after the servo motor horn moves 70 degrees toward the first pot, the motor pump will be on for five seconds and then stop automatically. Then, the servo returns to its original position. Similarly, if you are using a second sensor, the servo motor horn will move to 145 degrees to the second biggest pot, and the motor pump will be on for eight seconds and then stop automatically. The servo returns to its original position.
 
+
+## configuration
+connecting hardwarInstall my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+
 ## Set up yours
 To reproduce this project, you'll need some tools, some material, and the code from this project
 
