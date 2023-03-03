@@ -5,19 +5,18 @@ This project is all about the automatic irrigation system, This robot will start
 
 
 ## Context
+1. Introduction
+2. Circuit diagram
+3. Setup yours
+  * code
+  * tools
+  * material
+   * To control the system
+   * For the autonomy in energy
+   * The sensors
+      
+4. Guidelines
 
- - [introdution]
- - [circuit diagram]
- - [set up yours]
-
-        *code
-        *tools
-        *material
-           *to control system
-           *For the autonomy in energy
-           *The sensors
-           
- - [Guidelines](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 ## INTRODUCTION
 Goal of plant watering robot was to follow a line to a potted plant, actuate a sensor into the dirt to check the moisture level of the dirt, water the plant if needed, and continue on to the next plant when the moisture threshold is reached.This robot will start moving and then stop whenever it will find any plant then it starts watering according to their need. Once the robot reaches the plants, a bump sensor would be triggered to cause actuation of a servo motor with a moisture sensor on it
