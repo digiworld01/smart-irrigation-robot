@@ -8,17 +8,23 @@ This project is all about the automatic irrigation system, This robot will start
 
  - [introdution](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [circuit diagram](https://github.com/matiassingers/awesome-readme)
- - [software setup](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [set up yours](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+        *code
+        *tools
+        *material
+           *to control system
+           *For the autonomy in energy
+           *The sensors
+           
+ - [Guidelines](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-## Introduction
+## INTRODUCTION
 Goal of plant watering robot was to follow a line to a potted plant, actuate a sensor into the dirt to check the moisture level of the dirt, water the plant if needed, and continue on to the next plant when the moisture threshold is reached.This robot will start moving and then stop whenever it will find any plant then it starts watering according to their need. Once the robot reaches the plants, a bump sensor would be triggered to cause actuation of a servo motor with a moisture sensor on it
 
 ## circuit diagram
 The circuit diagram of the automatic plant watering system is shown in Fig. The circuit comprises an Arduino UNO board, a soil moisture sensor, a servo motor, DC water pump, and an L293D (IC1) motor driver IC,ultrasonic sensor,moiture sensor, li on battery,TP4056 charging module, 100RPM geared motor,wheels.
-![image](https://user-images.githubusercontent.com/115499393/222493284-b0f1a01e-a7d5-4138-bf2d-e1240b05b9f5.jpg)
 
-
-## installation
+![image](https://user-images.githubusercontent.com/115499393/222636652-704e874b-86f0-4e90-be08-5e9d74e3728d.jpg)
 
 
 ## Set up yours
